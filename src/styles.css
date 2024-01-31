@@ -45,6 +45,17 @@ section img.background {
   z-index: -1;
 }
 
+section img.backgroundH {
+  height: 102%;
+  object-fit: contain;
+  pointer-events: none;
+  width: 39vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
 h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
