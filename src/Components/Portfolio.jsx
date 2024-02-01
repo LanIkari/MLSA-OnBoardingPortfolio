@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "API REST Usuarios",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Desarrollo web colaborativo, con interfaz de login para usuarios y tablas detalle con la insercion y gestion de la informacion en CosmosDB. Cuenta con CRUD para la manipulacion de usuarios implementada con Java/SpringBoot y axios para la gestion de peticiones. Simple, responsiva y funcional.",
+    url: "https://elpoyocrudapp.azurewebsites.net/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "API REST Peliculas ",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Aplicacion Web con funcionalidades CRUD para la gestion y administracion de peliculas en un cine, utilizando JavaScript en conjunto con el framework NodeJS para el Backend y Angular en el desarrollo de el Frontend e utilizando MongoDB como gestor de base de datos. Implementación de Docke en conjunto con tecnologias de Azure como 'Container Registry' y 'Web App' para su despliegue. Estetica, funcional e intuitiva.",
+    url: "https://github.com/LanIkari/IS2_PROYECTO_LosSeguidoresDeJesus",
   },
   {
-    title: "My Resume Site",
+    title: "Mi sitio web personal",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Sitio web personal, con informacion sobre mi, mis proyectos y contacto. Desarrollado HTML, CSS y JavaScript y desplegado con github pages.",
+    url: "https://lanikari.github.io/BrandonAV-Portfolio/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Aplicacion a MLSA",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Video con el que me ceptaron al programa de Microsoft Student Ambassador",
+    url: "https://youtu.be/kxAzCiimd9k?si=GB9Octz7g0YKY87F",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Portafolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

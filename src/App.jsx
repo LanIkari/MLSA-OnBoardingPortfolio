@@ -32,7 +32,7 @@ const siteProps = {
   linkedIn: "https://linkedin.com/in/brandon-avendano-villegas",
   medium: "https://medium.com/@@brandonavendano087",
   twitter: "https://twitter.com/Brandon_Ikari",
-  youTube: "https://www.youtube.com/@brandonavendano1507",
+  youTube: "http://www.youtube.com/@brandonavendano1507",
 };
 
 const primaryColor = "#4E567E";
